@@ -1,46 +1,144 @@
 .container {
-	padding: 4rem 7.188rem;
+  padding: 4rem 7.188rem;
 
-	.hero {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-		.hero-image {
-			position: relative;
-		}
+  section {
+    margin-bottom: 4rem;
+  }
+}
 
-		.hero-infos {
-			width: 48%;
-			display: flex;
-			flex-direction: column;
-			.hero-text {
-				font-weight: 300;
-			}
-		}
-	}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  .hero-image {
+    position: relative;
+  }
+
+  .hero-infos {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    .hero-text {
+      font-weight: 300;
+    }
+  }
 }
 
 .circle {
-	width: 23rem;
-	height: 23rem;
-	background-color: #3b82f6;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 23rem;
+  height: 23rem;
+  background-color: #3b82f6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-text-color);
+  font-size: 2.5rem;
+}
+
+.icon-hero {
+  position: absolute;
+  top: 0px;
+}
+
+.history {
+	position: relative;
+	width: 100%; 
+	height: 36rem; 
+}
+
+.history-background-retangle {
+	width: 25rem;
+	height: 36rem;
+	background: linear-gradient(180deg, #0a1023 56%, #253d82 100%);
+	border-radius: 8px;
+	padding: 2rem 0;
+	text-align: center;
 	position: absolute;
-	top: 0px;
-	width: 6rem;
-	height: 6rem;
-	background-color: var(--main-color);
-	border-radius: 50%;
+	bottom: 0;
+	z-index: 0;
+	color: var(--secondary-text-color);
+	font-weight: 400;
+}
+
+.history-content {
+	position: absolute;
+	bottom: 0; 
+	left: 4rem;
+	z-index: 1; 
 	display: flex;
+	border-radius: 8px 8px 8px 0;
+	width: 90%;
+	height: 30rem;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.history-content img {
+	height: 100%;
+	width: 40%;
+	background: red;
+}
+
+.history-content-texts {
+	max-width: 60%;
+	width: 60%;
+	padding: 2.75rem 3.75rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	height: 100%;
 	justify-content: center;
+}
+
+.icon-history {
+  position: absolute;
+  top: -3rem;
+  right: -3rem;
+}
+
+.banner {
+	background: radial-gradient(ellipse at center, #0A1023 0%, #0A1023 44%, #253D82 100%);
+	width: 100%;
+	height: 25rem;
+	padding: 2.313rem 4.25rem;
+	display: flex;
 	align-items: center;
 	color: var(--secondary-text-color);
-	font-size: 2.5rem;
+	.vertical-text {
+		transform: rotate(90deg);
+		font-size: 2rem;
+		width: fit-content;
+	}
+
+	h2 {
+		font-weight: 400;
+	}
+}
+
+.banner-text {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner-img {
+	border-radius: 50%;
+	margin-left: auto;
+	height: 20rem;
+	width: 20rem;
+	background-color: rebeccapurple;
 }

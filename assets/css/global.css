@@ -17,8 +17,7 @@ body {
 	background-color: var(--main-bg-color);
 	color: var(--main-color);
 	font-size: 0.875rem;
-	font-family: var(--font-body);
-	padding: 1.5rem 3rem 0 3rem;
+	font-family: var(--font-body);	
 }
 
 a {
@@ -85,4 +84,8 @@ h2 {
 
 .mb-1 {
 	margin-bottom: 1rem;
+}
+
+.padding-container {
+	padding: 1.5rem 3rem 0 3rem;
 }
