@@ -1,0 +1,46 @@
+.container {
+	padding: 4rem 7.188rem;
+
+	.hero {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		.hero-image {
+			position: relative;
+		}
+
+		.hero-infos {
+			width: 48%;
+			display: flex;
+			flex-direction: column;
+			.hero-text {
+				font-weight: 300;
+			}
+		}
+	}
+}
+
+.circle {
+	width: 23rem;
+	height: 23rem;
+	background-color: #3b82f6;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	position: absolute;
+	top: 0px;
+	width: 6rem;
+	height: 6rem;
+	background-color: var(--main-color);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--secondary-text-color);
+	font-size: 2.5rem;
+}
