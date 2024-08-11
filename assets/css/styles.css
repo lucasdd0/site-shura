@@ -1,63 +1,65 @@
 .container {
-  padding: 4rem 7.188rem;
+	padding: 4rem 7.188rem;
 
-  section {
-    margin-bottom: 4rem;
-  }
+	section {
+		margin-bottom: 4rem;
+	}
 }
 
 .hero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  .hero-image {
-    position: relative;
-  }
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 
-  .hero-infos {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    .hero-text {
-      font-weight: 300;
-    }
-  }
+	.hero-image {
+		position: relative;
+	}
+
+	.hero-infos {
+		width: 48%;
+		display: flex;
+		flex-direction: column;
+
+		.hero-text {
+			font-weight: 300;
+		}
+	}
 }
 
 .circle {
-  width: 23rem;
-  height: 23rem;
-  background-color: #3b82f6;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../images/Gemini_Generated_Image_43h6xz43h6xz43h6.jpg);
-  background-size: cover;
+	width: 23rem;
+	height: 23rem;
+	background-color: #3b82f6;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/Gemini_Generated_Image_43h6xz43h6xz43h6.jpg);
+	background-size: cover;
 }
 
 .icon {
-  width: 6rem;
-  height: 6rem;
-  background-color: var(--main-color);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--secondary-text-color);
-  font-size: 2.5rem;
+	width: 6rem;
+	height: 6rem;
+	background-color: var(--main-color);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--secondary-text-color);
+	font-size: 2.5rem;
 }
 
 .icon-hero {
-  position: absolute;
-  top: 0px;
+	position: absolute;
+	top: 0px;
 }
 
 .history {
 	position: relative;
-	width: 100%; 
-	height: 36rem; 
+	width: 100%;
+	height: 36rem;
 }
 
 .history-background-retangle {
@@ -76,9 +78,9 @@
 
 .history-content {
 	position: absolute;
-	bottom: 0; 
+	bottom: 0;
 	left: 4rem;
-	z-index: 1; 
+	z-index: 1;
 	display: flex;
 	border-radius: 8px 8px 8px 0;
 	width: 90%;
@@ -106,9 +108,9 @@
 }
 
 .icon-history {
-  position: absolute;
-  top: -3rem;
-  right: -3rem;
+	position: absolute;
+	top: -3rem;
+	right: -3rem;
 }
 
 .banner {
@@ -119,6 +121,7 @@
 	display: flex;
 	align-items: center;
 	color: var(--secondary-text-color);
+
 	.vertical-text {
 		transform: rotate(90deg);
 		font-size: 2rem;
