@@ -1,5 +1,5 @@
 .container {
-	padding: 4rem 7.188rem;
+	padding: 4rem;
 
 	section {
 		margin-bottom: 4rem;
@@ -54,6 +54,7 @@
 .icon-hero {
 	position: absolute;
 	top: 0px;
+	right: 0px;
 }
 
 .history {
@@ -146,4 +147,71 @@
 	height: 20rem;
 	width: 20rem;
 	background-color: rebeccapurple;
+}
+
+@media (max-width: 992px){
+	.hero {
+		display: flex;
+		justify-content: center;
+		.hero-infos {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 3rem;
+
+			.hero-text {
+				font-weight: 300;
+			}
+		}
+	}
+}
+
+@media (max-width: 1400px){
+	.history{
+		.history-content{
+			img{
+				width: 45%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px){
+	html{
+		font-size: 90%;
+	}
+	.history{
+		.history-content{
+			img{
+				width: 50%;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px){
+	.history{
+		width: 80.4%;
+		.history-background-retangle{
+			height: 65.2rem;
+			top: 10px;
+		}
+		.history-content{
+			display: flex;
+			flex-direction: column;
+			height: 59rem;
+			width: 100%;
+			top: 100px;
+			img{
+				width: 100%;
+			}
+			.history-content-texts{
+				padding: 2rem 0;
+				align-items: center;
+			}
+		}
+	}
+	.banner{
+		margin-top: 25rem;
+	}
 }

@@ -21,7 +21,7 @@ body {
 	background-color: var(--main-bg-color);
 	color: var(--main-color);
 	font-size: 0.875rem;
-	font-family: var(--font-body);	
+	font-family: var(--font-body);
 }
 
 a {
@@ -29,32 +29,33 @@ a {
 	color: var(--main-color);
 }
 
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	.header-menu {
-		ul {
-			list-style: none;
-			display: flex;
-			gap: 5rem;
-
-			li {
-				a {
-					transition: var(--transition);
-					padding: 3px;
-					&:hover {
-						border-bottom: 3px solid var(--main-color);
-					}
-				}
-			}
-		}
-	}
+h1 {
+	font-size: 2em;
+	font-weight: bold;
 }
 
 h2 {
 	font-size: 2rem;
+	font-weight: bold;
+}
+
+nav{
+	ul {
+		align-items: center;
+		list-style: none;
+		gap: 4.5rem;
+	
+		li {
+			a.nav-link {
+				transition: var(--transition);
+				padding: 3px;
+	
+				&:hover {
+					border-bottom: 3px solid var(--main-color);
+				}
+			}
+		}
+	}
 }
 
 .btn {
@@ -91,5 +92,5 @@ h2 {
 }
 
 .padding-container {
-	padding: 1.5rem 3rem 0 3rem;
+	padding: 1.5rem 2rem 0 2rem;
 }
