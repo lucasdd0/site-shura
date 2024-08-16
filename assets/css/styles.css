@@ -1,5 +1,5 @@
 .container {
-	padding: 4rem;
+	padding: 4rem 0;
 
 	section {
 		margin-bottom: 4rem;
@@ -159,23 +159,9 @@
 	}
 }
 
-@media (max-width: 1200px){
-	html{
-		font-size: 90%;
-	}
-	.history{
-		.history-content{
-			img{
-				width: 50%;
-			}
-		}
-	}
-}
+
 
 @media (max-width: 992px){
-	html{
-		font-size: 85%;
-	}
 	.hero {
 		display: flex;
 		justify-content: center;
@@ -184,25 +170,21 @@
 			display: flex;
 			flex-direction: column;
 			margin-bottom: 3rem;
-			
-			.hero-text {
-				font-weight: 300;
-			}
 		}
 	}
 	
 	.history{
-		width: 80.4%;
+		width: 88%;
 		.history-background-retangle{
-			height: 65.2rem;
+			height: 64.58rem;
 			top: 10px;
 		}
 		.history-content{
 			display: flex;
 			flex-direction: column;
 			height: 59rem;
-			width: 100%;
 			top: 100px;
+			left: 6rem;
 			img{
 				width: 100%;
 			}
