@@ -82,23 +82,29 @@
 	bottom: 0;
 	left: 4rem;
 	z-index: 1;
-	display: flex;
 	border-radius: 8px 8px 8px 0;
 	width: 90%;
 	height: 30rem;
 	background-color: white;
-	display: flex;
-	align-items: center;
 }
 
 .history-content {
-	img{
-		min-width: 40%;
+	.carousel{
 		height: 100%;
+		.carousel-inner{
+			height: 100%;
+			.carousel-item{
+				height: 100%;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
 	}
 }
 
-.history-content-texts {
+/* .history-content-texts {
 	max-width: 60%;
 	width: 60%;
 	padding: 2.75rem 3.75rem;
@@ -107,7 +113,7 @@
 	gap: 1.5rem;
 	height: 100%;
 	justify-content: center;
-}
+} */
 
 .icon-history {
 	position: absolute;
@@ -163,7 +169,7 @@
 		}
 	}
 	
-	.history{
+	/* .history{
 		width: 88%;
 		.history-background-retangle{
 			height: 64.58rem;
@@ -183,7 +189,7 @@
 				align-items: center;
 			}
 		}
-	}
+	} */
 		.banner{
 			margin-top: 25rem;
 		}
