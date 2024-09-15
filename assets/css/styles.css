@@ -34,8 +34,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/Gemini_Generated_Image_43h6xz43h6xz43h6.jpg);
+  background-image: url(../images/robo-capa.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 .icon {
@@ -97,22 +98,12 @@
         img {
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
     }
   }
 }
-
-/* .history-content-texts {
-	max-width: 60%;
-	width: 60%;
-	padding: 2.75rem 3.75rem;
-	display: flex;
-	flex-direction: column;
-	gap: 1.5rem;
-	height: 100%;
-	justify-content: center;
-} */
 
 .icon-history {
   position: absolute;
