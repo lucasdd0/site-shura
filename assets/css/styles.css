@@ -154,13 +154,11 @@
   display: none;
 }
 
-
-#hardware .card {
+.card {
   transition: transform 0.2s ease-in-out;
-}
-
-#hardware .card:hover {
-  transform: scale(1.05);
+  &:hover{
+    transform: scale(1.05);
+  }
 }
 
 #hardware img {
