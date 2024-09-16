@@ -289,3 +289,60 @@
     display: block;
   }
 }
+
+#quem-somos{
+  img{
+    max-width: 70%;
+  }
+  .btn{
+    width: 13rem;
+  }
+}
+
+#nossos-diferenciais h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#nossos-diferenciais .card {
+  height: 15rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: .5s;
+}
+
+#nossos-diferenciais .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#nossos-diferenciais .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#nossos-diferenciais .card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+#desenvolvimento{
+  img{
+    max-width: 60%;
+  }
+}
+
+#socio{
+  img{
+    max-width: 65%;
+  }
+  .btn{
+    width: auto;
+  }
+}
