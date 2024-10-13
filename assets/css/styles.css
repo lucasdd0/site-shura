@@ -339,6 +339,12 @@
   }
 }
 
+#equipe{
+  .card{
+    min-height: 100%;
+  }
+}
+
 #nossos-diferenciais h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
