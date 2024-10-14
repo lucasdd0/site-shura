@@ -345,30 +345,14 @@
   }
 }
 
-#nossos-diferenciais h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
 #nossos-diferenciais .card {
-  height: max-content;
-  border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
-  border-radius: 10px;
-  background-color: #fff;
   transition: 0.5s;
 }
 
 #nossos-diferenciais .card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-#nossos-diferenciais .card-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
 }
 
 #nossos-diferenciais .card-text {
@@ -378,14 +362,7 @@
 }
 
 .card-custom {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   min-height: 100%;
-}
-
-.card-body {
-  flex-grow: 1;
 }
 
 #desenvolvimento {
