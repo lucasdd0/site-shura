@@ -4,7 +4,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
     const formPassword = document.querySelector('#password').value;
 
     if(pass === formPassword){
-        window.location.href = 'index.html';
+        window.location.href = 'site.html';
     } else {
         alert('Você precisa de uma permissão para acessar a página')
         document.querySelector('#password').focus();
